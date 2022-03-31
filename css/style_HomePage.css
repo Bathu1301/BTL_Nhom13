@@ -55,7 +55,26 @@ ul.main-menu-items{
 }
 .icons>a>i{
     padding: 0 10px;
+    color:rgb(117, 115, 115);
 }
 .slide-item img{
     width: 100vw;
+}
+
+.banner{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    padding: 70px;
+}
+
+.content-banner{
+    padding-right: 20px;
+}
+
+#title{
+    text-align: center;
 }
