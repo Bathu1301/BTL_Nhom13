@@ -1,0 +1,51 @@
+/*RESET CSS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+#header {
+    height: 74px;
+    background-color: #00c4cc;
+}
+
+#header #header-content {
+    line-height: 74px;
+    margin-left: 10%;
+    color: white;
+}
+
+/*MAP*/
+.map-container{
+    overflow:hidden;
+    padding-bottom:0;
+    position:relative;
+    height:100%;
+    width: 100%;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    position:absolute;
+  }
+
+  /*CONTACT*/
+  #contact {
+      width: 100%;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+
+  #contact #tell-us {
+        width: 45%;
+        float:left;
+  }
+
+  #contact #contact-us {
+      width:45%;
+      float: right;
+  }
