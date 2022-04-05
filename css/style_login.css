@@ -67,13 +67,22 @@ ul.main-menu-items{
 .slide-item img{
     width: 100vw;
 }
-
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 50px;
+}
 .row .col-4 img{
     width:445px;
     height:376.66px ;
 }
 .row .col-6{
     padding-left:50PX;
+
 }
 /*  */
 .bg{
@@ -146,3 +155,108 @@ ul.main-menu-items{
 	font-size: 13px;
 	font-weight: 600;
 }
+/*  */
+.container3{
+    display: flex;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: space-between;
+    background-color:#00C4CC;
+    font-family: 'Roboto', sans-serif;
+    padding:70px;
+    width:100%;
+}
+.box4{
+    height:199px;
+    width:255px;
+}
+.box5{
+    height:199px;
+    width:255px;
+    color: #FFFFFF;
+}
+.box6{
+    height:199px;
+    width:255px;
+}
+.box7{
+    height:199px;
+    width:285px;
+}
+.title3{
+    font-size:20px;
+    font-weight: 500px;
+    color: #FFFFFF;
+}
+.box4 p{
+    font-size:14px;
+    line-height: 23.8px;
+    color: #FFFFFF;
+}
+.covericons{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+}
+.covericons span{
+    background-color:#FFFFFF;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    text-align:center;
+}
+.box5 li{
+    list-style: none;
+    padding:5px;
+    font-size: 14px;
+    line-height: 23.8px;
+}
+.title4{
+    font-size:20px;
+    font-weight:500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.box6 ul li{
+    list-style:none ;
+    margin-left:-30px;
+    
+}
+.box6 ul li a{
+    text-decoration:none;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 23.8px;
+}
+.title5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height:24px;
+    color: #FFFFFF;
+}
+.title6{
+    font-size:20px;
+    font-weight:500;
+    line-height: 24px;  
+    color: #FFFFFF;
+}
+.box7{
+    width:285px;
+    height:199px;
+}
+.box7 p{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 23.8px;
+}
+.box7 button{
+    position: relative;
+    top:-30px;
+    right:-200px;}
+
