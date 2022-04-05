@@ -1,104 +1,123 @@
-body{
+body {
     margin: 0;
     font-family: 14px;
     color: #222222;
     line-height: 23.8px;
+    font-family: 'Roboto', sans-serif;
 }
-header{
+
+header {
     height: 100px;
 }
-.logo{
+
+.logo {
     float: left;
+    height: 88.875px;
+    width: 160px;
 }
-.header-inner{
+
+.header-inner {
     width: 1200px;
     height: 100px;
     margin: 0 auto;
 }
-.liv-nv{
+
+.liv-nv {
     list-style: none;
     float: left;
 }
-.liv-nv>li{
+
+.liv-nv>li {
     float: left;
     padding: 0 20px;
 }
 
-.main-menu-name{
+.main-menu-name {
     color: black;
 }
+
+.main-menu a{
+    color: black;
+}
+
 .main-menu {
     position: relative;
     display: block;
-    padding-top: 45px;
-  }
-  
-  .main-menu-items {
+    padding-top: 35px;
+}
+
+.main-menu-items {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     z-index: 1;
-  }
-  
-  .main-menu-name:hover .main-menu-items {
+}
+
+.main-menu-name:hover .main-menu-items {
     display: block;
-  }
-ul.main-menu-items{
+}
+
+ul.main-menu-items {
     list-style-type: none;
 }
-.liv-nv>li>a{
+
+.liv-nv>li>a {
     color: black;
     text-decoration: none;
 }
-.icons{
+
+.icons {
     padding-left: 1000px;
 }
-.icons>a>i{
+
+.icons>a>i {
     padding: 0 10px;
-    color:rgb(117, 115, 115);
+    color: rgb(117, 115, 115);
 }
-.slide-item img{
+
+.slide-item img {
     width: 100vw;
 }
 
-.banner{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+.banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     padding: 70px;
 }
 
-.content-banner{
+.content-banner {
     padding-right: 20px;
 }
 
-.title{
+.title {
     text-align: center;
 }
-#section-title{
+
+#section-title {
     max-width: 1170px;
     margin: 0 auto;
 }
 
-ul.product{
+ul.product {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    paddind:;
+    paddind: ;
 }
 
-.title p{
+.title p {
     margin-bottom: 35px;
 }
 
-ul.product li{
+ul.product li {
     flex-basis: 25%;
     /* padding-left: 15px;
     padding-right: 15px; */
@@ -106,53 +125,29 @@ ul.product li{
     margin-bottom: 30px;
 }
 
-ul.product li img{
+ul.product li img {
     max-width: 100%;
     height: auto;
 }
 
-ul.product li .product-top{
+ul.product li .product-top {
     position: relative;
     overflow: hidden;
 }
 
-ul.product li .product-top .product-thumb{
+ul.product li .product-top .product-thumb {
     display: block;
 }
-ul.product li:hover .product-top .product-thumb img{
+
+ul.product li:hover .product-top .product-thumb img {
     filter: opacity(80%);
 }
 
-ul.product li .product-top .product-thumb img{
+ul.product li .product-top .product-thumb img {
     display: block;
 }
 
-ul.product li:hover a.buy-now{
-    bottom: 0px;
-    background-color: #00C4CC;
-}
-
-ul.product li .product-info{
-    padding: 10px 0px;
-}
-
-ul.product li .product-info a{
-    display: block;
-    text-decoration: none;
-}
-
-ul.product li .product-info a.product-name{
-    color: #222222;
-    padding:  3px 0px;
-}
-
-ul.product li .product-info .product-price{
-    color: #00C4CC;
-    padding: 2px 0px;
-    font-weight: 600;
-}
-
-ul.product li .product-top a.buy-now{
+ul.product li .product-top a.buy-now {
     text-decoration: none;
     text-align: center;
     display: block;
@@ -160,12 +155,118 @@ ul.product li .product-top a.buy-now{
     padding: 10px 0px;
     position: absolute;
     width: 100%;
-    background-color: #00C4CC;
     width: 80px;
     margin-left: 90px;
     align-items: center;
     justify-content: center;
-
-    transition: 0.5s ease-in;
+    transition: 0.5s ease-in-out;
     opacity: 0.85;
+}
+
+ul.product li:hover a.buy-now {
+    bottom: 0px;
+    background-color: #00C4CC;
+}
+
+ul.product li .product-info {
+    padding: 10px 0px;
+}
+
+ul.product li .product-info a {
+    display: block;
+    text-decoration: none;
+}
+
+ul.product li .product-info a.product-name {
+    color: #222222;
+    padding: 3px 0px;
+    text-align: center;
+}
+
+ul.product li .product-info .product-price {
+    color: #00C4CC;
+    padding: 2px 0px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.terminal {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url(/img/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.terminal-container {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+} */
+
+.carousel-control-next,
+.carousel-control-prev
+/*, .carousel-indicators */
+    {
+    filter: invert(100%);
+    transition: all 0.5s ease 0s;
+}
+
+.d-blockw-100 {
+    margin-bottom: -100px;
+}
+/*title 0*/
+.titlem-0{
+    position: absolute;
+    top:200px;
+    left:400px;
+  
+}
+
+.titlem-0 h2{
+    font-size: 60px;
+    line-height: 66px;
+}
+
+.titlem-0 a{
+    background-color: #00C4CC;
+    padding:10px 25px 10px 25px;
+    border-radius: 5%;
+    color: #f9f9f9;
+}
+/*title 1*/
+.titlem-1 a{
+    background-color: #00C4CC;
+    padding:10px 25px 10px 25px;
+    border-radius: 5%;
+    color: #f9f9f9;
+}
+
+.titlem-1{
+    position: absolute;
+    top:200px;
+    left:400px; 
+}
+
+.titlem-1 h2{
+    font-size: 60px;
+    line-height: 66px;
+}
+
+.head-tes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
 }
