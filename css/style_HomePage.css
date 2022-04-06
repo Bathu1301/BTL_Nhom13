@@ -325,7 +325,18 @@ ul.product li .product-info .product-price {
     align-content: center;  
 }
 
+.sec{
+    width: 540px;
+}
 
+.section-body h5{
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.sec:hover h5{
+    color: #00C4CC;
+}
 
 /*footer*/
 .container3{
@@ -431,3 +442,4 @@ ul.product li .product-info .product-price {
     position: relative;
     top:-30px;
     right:-200px;}
+
