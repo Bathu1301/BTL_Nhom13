@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+
 /*HEADER*/
 #header {
     height: 74px;
@@ -17,6 +22,18 @@
     color: white;
 }
 
+#header a {
+    color: white;
+    text-decoration: none;
+}
+
+#header .ti-home-style {
+    padding-right: 7px;
+}
+
+#header .ti-home-style:hover {
+    color: #ff99cc;
+}
 /*MAP*/
 .map-container{
     overflow:hidden;
@@ -34,18 +51,113 @@
   /*CONTACT*/
   #contact {
       width: 100%;
-      margin-left: 10%;
-      margin-right: 10%;
+      padding-left: 10%;
+      padding-right: 10%;
       margin-top: 50px;
       margin-bottom: 50px;
   }
 
   #contact #tell-us {
-        width: 45%;
+        width: 50%;
         float:left;
   }
 
   #contact #contact-us {
-      width:45%;
+      width:50%;
       float: right;
   }
+
+  #contact #tell-us h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #222222;
+    margin-bottom: 23px;
+  }
+
+#input-name {
+    padding: 10px 15px;
+    background: #f8f8f8;
+    border: 1px solid white;
+    margin: 0 15px 20px 0px;
+    width: 40.5%;
+}
+
+#input-mail {
+    padding: 10px 15px;
+    background: #f8f8f8;
+    border: 1px solid white;
+    margin: 0 15px 20px 0px;
+    width: 40.5%;
+}
+
+#input-subject {
+    display: block;
+    padding: 10px 15px;
+    background: #f8f8f8;
+    border: 1px solid white;
+    width: 84%;
+    margin-bottom: 20px;
+}
+
+#input-message {
+    display: block;
+    padding: 10px 15px;
+    background: #f8f8f8;
+    border: 1px solid white;
+    width: 84%;
+    margin-bottom: 20px;
+}
+
+#tell-us button {
+    font-size: 15px;
+padding: 14px 30px;
+border-radius: 3px;
+border: 1px solid #ffa8d4;
+background-color: #ffa8d4;
+color: white;
+}
+
+#tell-us button:hover {
+ color:#000;
+}
+
+#contact-us h3 {
+    font-size: 20px;
+font-weight: 400;
+margin-bottom: 23px;
+}
+
+#contact-us #p1 {
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 400;
+    color: #555555;
+    margin-bottom: 32px;
+  }
+
+  #contact-us #address, #phone ,#mail {
+      margin-bottom: 30px;
+      font-size: 14px;
+    line-height: 1.7;
+    color: #555555;
+  }
+
+  #address p, #phone p,#mail p {
+      margin-left: 10px;
+      display: inline;
+  }
+  
+  #contact-us h6 {
+    line-height: 1.2;
+    color: #222222;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+
+#contact-us #p2 {
+    font-size: 14px;
+line-height: 1.7;
+color: #555555;
+}
