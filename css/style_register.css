@@ -176,6 +176,7 @@ ul.main-menu-items{
 	font-size: 13px;
 	font-weight: 600;
 }
+
   @media (max-width:420px) {
     .wrapper .form .inputfield{
       flex-direction: column;
