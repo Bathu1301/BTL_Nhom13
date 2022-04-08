@@ -7,6 +7,10 @@
 body{
     background-color: #eeeeee;
 }
+
+.bg-pink{
+    background-color: pink;
+}
 .na{
     margin-left: 25px;
 }
