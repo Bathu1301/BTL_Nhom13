@@ -63,8 +63,22 @@
         </div>
       </div>
       <div class="icons">
-        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+        <button type="button" class="btn" data-toggle="modal" data-target="#myModal"><i
+            class="fa fa-search" aria-hidden="true"></i></button>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">   
+              <div class="modal-body">
+                <input type="text" placeholder="Search product...">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+            </div>
+          </div>
+        </div>
+        <a href="login.html"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
         <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
         <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
       </div>
@@ -267,6 +281,8 @@
       </li>
     </ul>
   </div>
+
+  <!--testimonial-->
   <div class="terminal">
     <div class="terminal-container">
       <h2>Testimonials</h2>
@@ -274,13 +290,44 @@
     </div>
     <div class="tes">
       <div class="head-tes">
-        <img src="/img/testimonial/thumb-1.png" alt="">
-        <img src="/img/testimonial/thumb-2.png" alt="">
-        <img src="/img/testimonial/thumb-3.png" alt="">
+        <button class="tablinks tab1" onclick="openImg(event, 'body-tes1')"><img src="/img/testimonial/thumb-1.png"
+            alt=""></button>
+        <button class="tablinks" onclick="openImg(event, 'body-tes2')"><img src="/img/testimonial/thumb-2.png"
+            alt=""></button>
+        <button class="tablinks" onclick="openImg(event, 'body-tes3')"><img src="/img/testimonial/thumb-3.png"
+            alt=""></button>
       </div>
-      <div class="body-tes">
+      <div class="body-tes tabtes" id="body-tes1">
         <p>Vivamus a lobortis ipsum, vel condimentum magna. Etiam id turpis tortor. Nunc scelerisque, nisi a blandit
           varius, nunc purus venenatis ligula, sed venenatis orci augue nec sapien. Cum sociis natoque</p>
+        <span class="rating-wrap text-white">
+          <span class="star text-warning" style="width: 80%;">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></span>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <span class="rating-num text-light">(3)</span>
+        <h4 class="testimonial-author mb-0">Anamika lusy</h4>
+      </div>
+      <div class="body-tes" id="body-tes2">
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+          literature from 45 BC, making it over 2000 years old.</p>
+        <span class="rating-wrap text-white">
+          <span class="star text-warning" style="width: 80%;">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></span>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        <span class="rating-num text-light">(3)</span>
+        <h4 class="testimonial-author mb-0">Tinsy Nilom</h4>
+      </div>
+      <div class="body-tes" id="body-tes3">
+        <p>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem
+          Ipsum, "Lorem ipsum dolor sit amet</p>
         <span class="rating-wrap text-white">
           <span class="star text-warning" style="width: 80%;">
             <i class="fa-solid fa-star"></i>
@@ -386,6 +433,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script src="/js/HomePage.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

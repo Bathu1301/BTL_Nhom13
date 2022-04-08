@@ -304,10 +304,28 @@ ul.product li .product-info .product-price {
     position: relative;
 }
 
+.head-tes button{
+    background-color: transparent;
+    border: none;
+}
+
+.body-tes{
+    display: none;
+}
+
+.tab1{
+    transform: scale(1.5);
+    transition: all 0.5s;
+}
+
+.tabtes{
+    display: block;
+}
+
 .body-tes {
     height: 47.5938px;
     width: 910px;
-    margin: 0 auto;
+    margin: 25px auto;
     text-align: center;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -315,6 +333,7 @@ ul.product li .product-info .product-price {
     align-items: center;
     align-content: center;
 }
+
 .section .container{
 	text-align: center;
     padding-top: 50px;
@@ -384,6 +403,7 @@ ul.product li .product-info .product-price {
     line-height: 23.8px;
     color: #FFFFFF;
 }
+/*icons*/
 .covericons{
     display: flex;
 	flex-direction: row;
@@ -399,6 +419,38 @@ ul.product li .product-info .product-price {
     border-radius:50%;
     text-align:center;
 }
+
+.modal-content{
+    border: none;
+}
+
+.modal-dialog{
+    margin: auto 0;
+}
+
+.modal-body{
+    width: 90vw;
+    padding-top: 450px;
+    padding-left: 180px;
+}
+
+
+.modal-body input{
+    width: 95%;
+    border: none;
+    border-bottom: solid 2px black;
+    font-size: 25px;
+}
+
+.modal-body input:focus{
+    border: none;
+    border-bottom: solid 2px black;
+}
+
+.fade{
+    background-color: white;
+}
+
 .box5 li{
     list-style: none;
     padding:5px;
