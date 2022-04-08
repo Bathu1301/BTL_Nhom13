@@ -22,6 +22,10 @@ header {
     margin: 0 auto;
 }
 
+li.main-menu-name:hover{
+    color: #00C4CC;
+}
+
 .liv-nv {
     list-style: none;
     float: left;
@@ -327,15 +331,16 @@ ul.product li .product-info .product-price {
 
 .sec{
     width: 540px;
+    margin-bottom: 20px;
 }
 
 .section-body h5{
     flex-wrap: wrap;
-    padding-bottom: 30px;
 }
 
-.sec:hover h5{
+.sec h5:hover{
     color: #00C4CC;
+    cursor: pointer;
 }
 
 /*footer*/
@@ -443,3 +448,76 @@ ul.product li .product-info .product-price {
     top:-30px;
     right:-200px;}
 
+.blogger ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#00C4CC;
+}
+      
+.blogger ul li {
+    float: left;
+    color: #f9f9f9;
+}
+      
+.blogger ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.blogger{
+    padding-bottom: 80px;
+}
+
+.blogger .contain{
+    padding-top: 16px;
+}
+
+.time-section{
+    padding-top: 20px;
+}
+
+.read-section{
+    text-decoration: underline;
+}
+
+.read-section >i{
+    width: 0;
+    display: none;
+}
+
+.read-section:hover i{
+    display: inline-block;
+    width: 20px;
+    color: #00C4CC;
+    transition: all 1s;
+}
+
+.read-section:hover {
+    color: #00C4CC;
+    cursor: pointer;
+}
+/*nav*/
+.toolbar-wrapper li{
+    border: solid 1px black;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.toolbar-wrapper{
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.toolbar-wrapper ul{
+    display: inline-block;
+}
+
+nav{
+    padding-left: 830px;
+    padding-bottom: 30px;
+}
