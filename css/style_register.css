@@ -143,7 +143,7 @@ ul.main-menu-items{
   }
   
   .wrapper .form .inputfield .btn{
-    width: 80%;
+    width: 73%;
     margin-left: 50px;
     padding: .375rem .75rem;
      /* padding: 8px 10px; */
@@ -167,7 +167,6 @@ ul.main-menu-items{
     margin: 0;
     font-family: inherit;
     font-size: inherit;
-    width: 50%;
     line-height: inherit;
 }
 
@@ -292,7 +291,8 @@ align-content: stretch;
   line-height: 23.8px;
 }
 .box7 button{
-  /* position: relative; */
-  top:-30px;
-  right:-200px;}
+  position: relative;
+  top:-28.5px;
+  right:-205px;
+}
 
