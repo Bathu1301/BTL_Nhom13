@@ -10,27 +10,27 @@ html {
 }
 
 /*HEADER*/
-#header {
+#header1 {
     height: 74px;
     background-color: #00c4cc;
 }
 
-#header #header-content {
+#header1 #header-content {
     line-height: 74px;
     margin-left: 10%;
     color: white;
 }
 
-#header a {
+#header1 a {
     color: white;
     text-decoration: none;
 }
 
-#header .ti-home-style {
+#header1 .ti-home-style {
     padding-right: 7px;
 }
 
-#header .ti-home-style:hover {
+#header1 .ti-home-style:hover {
     color: #ff99cc;
 }
 /*SECTION*/
