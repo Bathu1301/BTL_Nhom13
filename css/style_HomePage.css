@@ -434,6 +434,15 @@ ul.product li .product-info .product-price {
     padding-left: 180px;
 }
 
+.modal-body button{
+    font-size: 40px;
+}
+
+.modal-body button:hover{
+    color: #00C4CC;
+    transform: rotate(90deg);
+    transition: all 0.5s;
+}
 
 .modal-body input{
     width: 95%;
