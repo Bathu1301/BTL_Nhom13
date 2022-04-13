@@ -1,0 +1,263 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    height: 100px;
+}
+.logo{
+    float: left;
+}
+.header-inner{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+.liv-nv{
+    list-style: none;
+    float: left;
+}
+.liv-nv>li{
+    float: left;
+    padding: 0 20px;
+}
+
+.main-menu-name{
+    color: black;
+}
+.main-menu {
+    position: relative;
+    display: block;
+    padding-top: 45px;
+  }
+  
+.main-menu-items {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.main-menu-items li a{
+    text-decoration: none;
+    color: #222222;
+}
+.main-menu-name:hover .main-menu-items {
+    display: block;
+  }
+ul.main-menu-items{
+    list-style-type: none;
+}
+.liv-nv>li>a{
+    color: black;
+    text-decoration: none;
+}
+.icons{
+    padding-left: 1000px;
+}
+.icons>a>i{
+    padding: 0 10px;
+}
+.slide-item img{
+    width: 100vw;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 50px;
+}
+.row .col-4 img{
+    width:445px;
+    height:376.66px ;
+}
+.row .col-6{
+    padding-left:50PX;
+
+}
+/*  */
+.bg{
+	background: #e3e3e3;
+	padding: 80px 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.form-wrap{
+	background: #efefef none repeat scroll 0 0; ;
+	position: relative;
+	box-shadow: rgba(221,230,237,0.4) 0px 3px 10px 0px;
+}
+
+#regForm{
+	padding: 10px 30px 30px 30px;
+}
+
+.form-heading{
+	position: relative;
+	top:15px;
+	padding: 15px 0px;
+	text-align: center;
+	color: black;
+}
+
+
+
+.form-heading h1{
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 700;
+	margin: 0px;
+}
+
+.form-heading p{
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+#regForm label{
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.form-control:focus{
+	box-shadow: none;
+}
+
+::placeholder{
+  text-transform: capitalize;
+  font-size: 11px;
+  font-weight: 500;
+  color: #b5b5b5;
+}
+
+.btn-primary{
+	border:none;
+	margin:20px 0px 0px 0px;
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 600;
+	background: black
+}
+
+#p1, #p2, #p3{
+	color: #ff0000;
+	font-size: 13px;
+	font-weight: 600;
+}
+/*  */
+.container3{
+    display: flex;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: space-between;
+    background-color:#00C4CC;
+    font-family: 'Roboto', sans-serif;
+    padding:70px;
+    width:100%;
+}
+.box4{
+    height:199px;
+    width:255px;
+}
+.box5{
+    height:199px;
+    width:255px;
+    color: #FFFFFF;
+}
+.box6{
+    height:199px;
+    width:255px;
+}
+.box7{
+    height:199px;
+    width:285px;
+}
+.title3{
+    font-size:20px;
+    font-weight: 500px;
+    color: #FFFFFF;
+}
+.box4 p{
+    font-size:14px;
+    line-height: 23.8px;
+    color: #FFFFFF;
+}
+.covericons{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+}
+.covericons span{
+    background-color:#FFFFFF;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    text-align:center;
+}
+.box5 li{
+    list-style: none;
+    padding:5px;
+    font-size: 14px;
+    line-height: 23.8px;
+}
+.title4{
+    font-size:20px;
+    font-weight:500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.box6 ul li{
+    list-style:none ;
+    margin-left:-30px;
+    
+}
+.box6 ul li a{
+    text-decoration:none;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 23.8px;
+}
+.title5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height:24px;
+    color: #FFFFFF;
+}
+.title6{
+    font-size:20px;
+    font-weight:500;
+    line-height: 24px;  
+    color: #FFFFFF;
+}
+.box7{
+    width:285px;
+    height:199px;
+}
+.box7 p{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 23.8px;
+}
+.box7 button{
+    position: relative;
+    top:-28.5px;
+    right:-205px;
+}
+
