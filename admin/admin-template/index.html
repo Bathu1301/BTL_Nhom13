@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+            
+            <li>    
+            <a href="#">
+                    <span class="icon"><i class="ti ti-briefcase"></i></span>
+                    <span class="title"><h2>Toy shop admin</h2><i class=""></i></span>
+             </a>
+            </li>
+            
+            <li>   
+            <a href="#">
+                    <span class="icon"><i class="ti-image"></i></span>
+                    <span class="title">Dashboard</span>
+                
+            </a></li>
+            <li>    
+            <a href="../index.html">
+                    <span class="icon"><i class="ti ti-blackboard"></i></span>
+                    <span class="title">Add New Toy</span>
+            </a>
+</li>
+<li>
+            <a href="#">
+                    <span class="icon"><i class="ti ti-comment-alt"></i></span>
+                    <span class="title">Message</span>
+            </a>
+</li>
+<li>
+            <a href="#">
+                    <span class="icon"><i class="ti ti-help"></i></span>
+                    <span class="title">Help</span>
+             </a>
+    </li>         <li>   
+             <a href="#">
+                    <span class="icon"><i class="ti ti-settings"></i></span>
+                    <span class="title">Setting</span>
+            </a>
+             </li>   
+             <li>
+            <a href="#">       
+                    <span class="icon"></i><i class="ti ti-lock"></i></span>
+                    <span class="title">Password</span>
+            </a>
+            </li>    
+            <li>
+            <a href="login.html">
+                    <span class="icon"><i class="ti ti-user"></i></span>
+                    <span class="title">Sign out</span>   
+            </a>
+            </li>
+            </ul>
+        </div>
+
+
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle"><i class="ti-menu" onclick="toggleMenu();"></i></div>
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <i class="ti ti-search ti-search-0"></i>
+                    </label>
+                    
+                </div>
+                <div class="user">
+                    <img src="user.jpg">
+                </div>
+            </div>
+
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1,042</div>
+                        <div class="cardName">Daily Views</div>
+                    </div>
+                    <div class="iconBox">
+                        <i class="ti-eye"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">80</div>
+                        <div class="cardName">Sale</div>
+                    </div>
+                    <div class="iconBox">
+                        <i class="ti-shopping-cart"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">102</div>
+                        <div class="cardName">Comments</div>
+                    </div>
+                    <div class="iconBox">
+                        <i class="ti-comment"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">$1042</div>
+                        <div class="cardName">Earning</div>
+                    </div>
+                    <div class="iconBox">
+                        <i class="ti-money"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Recent orders</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Price</td>
+                                <td>Payment</td>
+                                <td>Status</td>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Vợt bóng bàn</td> 
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status Delivered">Delivered</span></td>
+
+                            </tr>
+                            <tr>
+                                <td>Xe máy điều khiển</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status Delivered">Pending</span></td>
+
+                            </tr>
+                            <tr>
+                                <td>Robot</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+
+                            </tr>
+                            <tr>
+                                <td>Vòng xoay vô cực</td>
+                                <td>$1200</td>
+                                <td>Due</td>
+                                <td><span class="status inprogress">In Progress</span></td>
+
+                            </tr>
+                            <tr>
+                                <td>Ngôi nhà mô hình</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">Delivered</span></td>
+
+                            </tr>
+                            <tr>
+                                <td>Súng nước</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status pending">Pending</span></td>
+
+                            </tr>
+                            <tr>
+                                <td>Máy cẩu</td>
+                                <td>$1200</td>
+                                <td>Paid</td>
+                                <td><span class="status return">Return</span></td>
+
+                            </tr>
+                            <tr>
+                                <td>Mèo cute</td>
+                                <td>$1200</td>
+                                <td>Due</td>
+                                <td><span class="status inprogress">In Progress</span></td>
+
+                            </tr>
+                            <tr>
+                                <td>Búp bê baby</td>
+                                <td>$1200</td>
+                                <td>Due</td>
+                                <td><span class="status delivered">Delivered</span></td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Recent Customers</h2>
+                    </div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="img1.jpg"></div></td>
+                                <td><h4>Be Tho<br></h4><span>Lang Son</span></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="img2.jpg"></div></td>
+                                <td><h4>Be Tho<br></h4><span>Lang Son</span></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="img3.jpg"></div></td>
+                                <td><h4>Be Tho<br></h4><span>Lang Son</span></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="img4.jpg"></div></td>
+                                <td><h4>Be Tho<br></h4><span>Lang Son</span></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="img5.jpg"></div></td>
+                                <td><h4>Be Tho<br></h4><span>Lang Son</span></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="img6.jpg"></div></td>
+                                <td><h4>Be Tho<br></h4><span>Lang Son</span></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="img7.jpg"></div></td>
+                                <td><h4>Be Tho<br></h4><span>Lang Son</span></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="img8.jpg"></div></td>
+                                <td><h4>Be Tho<br></h4><span>Lang Son</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleMenu(){
+            let toggle = document.querySelector('.ti-menu')
+            let navigation = document.querySelector('.navigation')
+            let main = document.querySelector('.main')
+
+            toggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+            main.classList.toggle('active')
+
+        }
+    </script>
+</body>
+</html>
