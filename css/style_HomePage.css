@@ -436,12 +436,12 @@ ul.product li .product-info .product-price {
 
 .modal-body button{
     font-size: 40px;
+    transition: all 0.25s linear;
 }
 
 .modal-body button:hover{
     color: #00C4CC;
     transform: rotate(90deg);
-    transition: all 0.5s;
 }
 
 .modal-body input{
