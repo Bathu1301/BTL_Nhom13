@@ -16,7 +16,7 @@ body
 .navigation {
     position: fixed;
     width: 300px;
-    background-color: #001470;
+    background-color: #00c4cc;
     height: 100%;
     transition: 0.5s;
     overflow:hidden;
