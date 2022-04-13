@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>admin</title>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="../css/style_HomePage.css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="header-inner">
+      <a href="HomePage.html"><img src="/img/logo.png" class="logo"></a>
+      <div class="main-menu">
+        <div class="main-menu-right">
+          <ul class="liv-nv">
+            <li class="main-menu-name">Home<i class="fa-solid fa-angle-down"></i>
+              <ul class="main-menu-items">
+                <li><a href="HomePage.html">Home 1</a></li>
+                <li><a href="#">Home 2</a></li>
+                <li><a href="#">Home 3</a></li>
+              </ul>
+            </li>
+            <li class="main-menu-name">Shop<i class="fa-solid fa-angle-down"></i>
+              <ul class="main-menu-items">
+                <p>Shop Layout</p>
+                <hr>
+                <li><a href="#">Shop Grid</a></li>
+                <li><a href="#">Left Slidebar</a></li>
+                <li><a href="#">Right Slide</a></li>
+              </ul>
+            </li>
+            <li class="main-menu-name">Page<i class="fa-solid fa-angle-down"></i>
+              <ul class="main-menu-items">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+              </ul>
+            </li>
+            <li class="main-menu-name"><a href="blog.html">Blog</a></li>
+            <li class="main-menu-name"><a href="about.html">About</a></li>
+            <li class="main-menu-name"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <div class="icons">
+        <button type="button" class="btn" data-toggle="modal" data-target="#myModal"><i class="fa fa-search"
+            aria-hidden="true"></i></button>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                <input type="text" placeholder="Search product...">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+            </div>
+          </div>
+        </div>
+        <a href="login.html"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+
+    <h1 class="text-center">Thêm sản phẩm</h1>
+    <form onsubmit="create_user()" name="userForm">
+      <div class="form-group">
+        <input class="form-control" type="text" name="id" autocomplete="off" value="ID" disabled>
+
+        <input class="form-control" type="text" name="username" placeholder="Tên sản phẩm" autocomplete="off">
+        <input class="form-control" type="text" name="email" placeholder="Giá" autocomplete="off">
+        <input class="form-control" type="text" name="password" placeholder="Thông tin sản phẩm" autocomplete="off">
+        <div class="d-flex justify-content-center">
+          <button type="submit" id="create" class="btn btn-success">Add</button>
+          <button type="button" id="read" class="btn btn-info" onclick="read_data()">Read</button>
+          <button id="update" class="btn btn-warning" onclick="update_user()" type="button">Update</button>
+          <button id="delete" type="button" class="btn btn-danger" onclick="delete_all()">Delete</button>
+        </div>
+      </div>
+    </form>
+
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th>#</th>
+          <th>Tên</th>
+          <th>Giá</th>
+          <th>Thông tin sản phẩm</th>
+          <th>Sửa</th>
+          <th>Xóa</th>
+        </tr>
+      </thead>
+      <tbody id="data">
+
+      </tbody>
+    </table>
+
+  </div>
+  <script src="../js/fontawsom.js"></script>
+  <script src="../js/bootstrap.bundle.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
