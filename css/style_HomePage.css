@@ -24,6 +24,7 @@ header {
 
 li.main-menu-name:hover{
     color: #00C4CC;
+	cursor:pointer;
 }
 
 .liv-nv {
